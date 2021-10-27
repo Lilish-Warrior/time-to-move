@@ -1,6 +1,7 @@
 :root {
   --background-color: #f9f7fe;
   --primary-button-color: #6c63ff;
+  --accent-color: #fd767b;
   --heading-font-familiy: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --logo-font-family: "Dancing Script", cursive;
@@ -9,20 +10,29 @@
 
 body {
   background: var(--background-color);
-  text-align: center;
 }
 h1 {
   color: #1d0838;
   font-family: var(--heading-font-familiy);
-  font-size: 96px;
-  margin-top: 180px;
+  font-size: 80px;
+  margin-top: 140px;
+  text-align: center;
 }
 h2 {
   color: #6a6c74;
-  font-size: 30px;
+  font-size: 20px;
   font-family: var(--default-font-family);
   font-weight: lighter;
-  margin: 50px;
+  margin: 20px;
+  text-align: center;
+}
+h3 {
+  color: #6a6c74;
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  font-weight: lighter;
+  text-align: center;
+  padding: 30px;
 }
 
 p {
@@ -30,31 +40,49 @@ p {
   font-family: var(--default-font-family);
   line-height: 1.5;
 }
-.paragraph-homepage {
-  padding: 30px 160px;
+
+.logo {
+  max-width: 100px;
 }
 
-.img-front-page {
-  max-width: 70%;
-  border-radius: 4px;
-  padding: 20px;
-}
-.logo2 {
-  font-family: var(--logo2-font-family);
-  font-size: 40px;
-}
-.bar-font {
+.navbar-font {
   font-family: var(--default-font-family);
-  font-size: 25px;
+  font-size: 16px;
+  margin-right: 40px;
+}
+.navbar {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.img-main {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+}
+
+.img-col {
+  width: 400px;
+  margin-left: 40px;
+}
+
+.container-info {
+  margin-left: 90px;
+  padding: 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
 }
 .icon-footer {
-    color: var(--primary-button-color);
-    font-size: 30px;
-    margin-bottom: 30px;
+  color: var(--accent-color);
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 .link-footer {
   text-decoration: none;
-  color: var(--primary-button-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 960px) {
